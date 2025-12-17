@@ -8,3 +8,4 @@ pandas
 scikit-learn
 reformer-pytorch
 torch-geometric
+matplotlib

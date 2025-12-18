@@ -5,7 +5,7 @@ _C = CN()
 # random seed number
 _C.SEED = 0
 # number of gpus per node
-_C.NUM_GPUS = 4
+_C.NUM_GPUS = 1
 _C.VISIBLE_DEVICES = 0
 _C.RESULT_DIR = 'results/'
 

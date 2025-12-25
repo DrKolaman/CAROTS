@@ -5,7 +5,7 @@ _C = CN()
 # random seed number
 _C.SEED = 0
 # number of gpus per node
-_C.NUM_GPUS = 0
+_C.NUM_GPUS = 1
 _C.VISIBLE_DEVICES = 0
 _C.RESULT_DIR = 'results/'
 
@@ -33,7 +33,7 @@ _C.DATA.DOWNSAMPLE_RATE = 1
 
 
 _C.TRAIN = CN()
-_C.TRAIN.ENABLE = False
+_C.TRAIN.ENABLE = True
 _C.TRAIN.BATCH_SIZE = 256
 _C.TRAIN.SHUFFLE = True
 _C.TRAIN.DROP_LAST = True

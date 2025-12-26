@@ -50,7 +50,7 @@ def load_config(args):
         "WADI": 123,
         "Lorenz96": 128,
         "VAR": 128,
-        "itransformer": 864,
+        "itransformer": 862,
     }
     if cfg.DATA.NAME == 'SWaT':
         cfg.DATA.N_VAR = valid_datasets["SWaT"]
